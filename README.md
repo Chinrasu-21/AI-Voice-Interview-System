@@ -72,6 +72,7 @@ npm run dev
 
 ```bash
 cd backend
+pip install -r requirements.txt
 .\venv\Scripts\Activate.ps1; uvicorn app.main:app --reload
 ```
 
