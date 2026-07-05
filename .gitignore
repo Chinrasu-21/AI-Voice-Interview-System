@@ -1,0 +1,16 @@
+# Python environments and secrets
+backend/venv/
+backend/.env
+**/__pycache__/
+*.pyc
+*.wav
+
+# Node dependencies and builds
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
