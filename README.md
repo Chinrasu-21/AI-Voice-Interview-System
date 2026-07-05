@@ -65,22 +65,21 @@ git clone https://github.com/Chinrasu-21/AI-Voice-Interview-System.git
 ```bash
 cd frontend
 npm install
-npm start
+npm run dev
 ```
 
 ### Backend
 
 ```bash
 cd backend
-pip install -r requirements.txt
-uvicorn main:app --reload
+.\venv\Scripts\Activate.ps1; uvicorn app.main:app --reload
 ```
 
----
+## NGROK
 
-## 📸 Screenshots
-
-> Screenshots will be added soon.
+```bash
+ngrok.exe http --domain=unloving-papyrus-immersion.ngrok-free.dev 8000
+```
 
 ---
 
